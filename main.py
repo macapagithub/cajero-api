@@ -7,7 +7,6 @@ from db.transaction_db import save_transaction
 from models.user_models import UserIn, UserOut
 from models.transaction_models import TransactionIn, TransactionOut
 
-
 import datetime 
 from fastapi import FastAPI 
 from fastapi import HTTPException
